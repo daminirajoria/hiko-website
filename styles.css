@@ -1,0 +1,327 @@
+/* Shop Page */
+#page-header{
+    background-image: url("img/banner1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#navbar{
+    display:flex;
+    align-items: stretch;
+    justify-content: right;
+    gap: 10px;
+}
+#mobile{
+    display:flex;
+    justify-content: right;
+    gap: 20px;
+}
+#page header h2,
+#page header p{
+    color: #fff;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+.content:hover{
+    box-shadow: 0 3px 6px  rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+#pagination{
+text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+     font-weight: 600;
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+#newsletters{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/banner 7.jpeg");
+    background-repeat: no-repeat;
+    background-position: 100px 400px;
+    background-color: #041e42;
+    }
+#newsletters h4{
+    font-size: 22px;    
+    font-weight: 700;
+    color: #fff;
+    }
+    #newsletters p{
+    font-size: 14px;
+    font-weight: 600;
+    color: lightblue;
+    }
+    #newsletters p span{
+    color: yellow;
+    }
+    #newsletters .form{
+    display: flex;
+    width: 40%;
+    }
+#newsletters input{
+    height: 3.125rem;
+    padding: 0 20px;
+    font-size:15px;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    border-top-right-radius:0; border-bottom-right-radius: 0;
+    }
+    #newsletters button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius:0;
+    border-bottom-left-radius: 0;
+    }
+    footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    footer .col{
+display: flex;
+    flex-direction : column; align-items: flex-start;
+    margin-bottom: 20px;
+    }
+    footer .follow i:hover,
+footer a:hover{
+    
+color:#088178; }
+footer .logo{ margin-left: 30px;
+    
+}
+footer h4{
+font-size: 14px; padding-bottom: 20px;
+
+}
+footer p{ font-size: 13px; margin:8px 0;
+   
+}
+footer a{
+   
+font-size : 13px; 
+text-decoration : none;
+ color:#222;
+  margin:10px;
+footer .follow{
+margin-top: 20px;
+}
+footer .follow i{
+color: #465b52; padding: 4px; }
+cursor: pointer
+}
+/*single product */
+#navbar{
+    display:flex;
+    align-items: stretch;
+    justify-content: right;
+    gap: 10px;
+}
+#mobile{
+    display:flex;
+    justify-content: right;
+    gap: 20px;
+}
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+#prodetails.single-pro-image{
+    width: 80%;
+    margin-right: 10px;
+}
+.small-img-group{
+    display:flex;
+    justify-content: space-around;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails.single-pro-details{
+width: 50%;
+padding-top: 30px;
+}
+#prodetails.single-pro-details h4{    
+    padding: 40px 0 20px 0;
+}
+#prodetails.single-pro-details h2{    
+   font-size: 26px;
+}
+#prodetails.single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodetails.single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#prodetails.single-pro-details input{
+    outline: none;
+}
+#prodetails.single-pro-details button{
+    background: #088178;
+    color: #fff;
+}
+#prodetails.single-pro-details span{
+    line-height: 25px;
+}
+
+/* Blog Page */
+
+#page-header.blog-header{
+	background-image: url("img/Blog/b3.jpeg.jpeg");
+}
+
+#blog{
+	padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	position: relative;
+	padding-bottom: 90px;
+}
+
+
+#blog.blog-img{
+	width: 50%;
+	margin-right: 40px;
+}
+
+
+#blog-img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+#blog .blog-details{
+	width: 50%;
+}
+
+#blog .blog-details a{
+	text-decoration: none;
+	font-size: 11px;
+	color: #000 ;
+	font-weight: 700;
+	position: relative ; 
+	transition: 0.3s   ;
+}
+ #blog .blog-details a::after {
+ 	content: "";
+ 	width: 50px;
+ 	background-color: #000;
+ 	position: absolute;
+ 	top: 4px;
+ 	right: -60px;
+ }
+ #blog .blog-details a:hover {
+ 	color: #088178;
+ }
+  #blog .blog-details a:hover::after {
+       background-color:#088178 ;
+  }
+  #blog .blog-box h1{
+  	position: absolute;
+  	top: -40px;
+  	left: 0;
+  	font-size: 70px;
+  	font-weight: 700;
+  	color: #c9cbce;
+  	z-index: -9;
+  }
+
+  /*About-page*/
+  #page-header.about-header{
+    background-image: url(img/about/banner1.jpg);
+    width: 10%;
+    }
+    #navbar{
+        display:flex;
+        align-items: stretch;
+        justify-content: right;
+    
+    }
+    #about-head {
+        display: flex;
+        align-items: center;
+    }
+    
+    #about-head img{
+        width: 50%;
+        height: auto;
+    }
+    
+    #about-head div{
+        padding-left: 40px;
+    
+    }
+    
+    #about-app{
+        text-align: center;
+    }
+    
+    #about-app .video{
+        width: 70%;
+        height: 100%;
+        margin: 30px auto 0 auto;
+    }
+    #about-app .video video{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    /* Contact page */

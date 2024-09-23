@@ -1,0 +1,134 @@
+#page-header{
+    background-image: url("img/about/banner1.jpgg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+  }
+
+#page-header.about-header {
+background-image: url("img/about/banner1.jpg");
+
+}
+
+
+#navbar{
+    display:flex;
+    align-items: stretch;
+    justify-content: right;
+    gap: 10px;
+}
+#mobile{
+    display:flex;
+    justify-content: right;
+    gap: 20px;
+}
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div{
+    padding-left: 40px;
+
+}
+#about-app {
+    text-align: center;
+}
+
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+#about-app .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#newsletters{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/banner 7.jpeg");
+    background-repeat: no-repeat;
+    background-position: 100px 400px;
+    background-color: #041e42;
+    }
+#newsletters h4{
+    font-size: 22px;    
+    font-weight: 700;
+    color: #fff;
+    }
+    #newsletters p{
+    font-size: 14px;
+    font-weight: 600;
+    color: lightblue;
+    }
+    #newsletters p span{
+    color: yellow;
+    }
+    #newsletters .form{
+    display: flex;
+    width: 40%;
+    }
+#newsletters input{
+    height: 3.125rem;
+    padding: 0 20px;
+    font-size:15px;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    border-top-right-radius:0; border-bottom-right-radius: 0;
+    }
+    #newsletters button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius:0;
+    border-bottom-left-radius: 0;
+    }
+    footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    footer .col{
+    display: flex;
+    flex-direction : column; align-items: flex-start;
+    margin-bottom: 20px;
+    }
+    footer .follow i:hover,
+footer a:hover{
+color:#088178; }
+footer .logo{ margin-left: 30px;
+}
+footer h4{
+font-size: 14px; padding-bottom: 20px;
+}
+footer p{ font-size: 13px; margin:8px 0;
+}
+footer a{
+font-size : 13px; 
+text-decoration : none;
+ color:#222;
+  margin:10px;
+footer .follow{
+margin-top: 20px;
+}
+footer .follow i{
+color: #465b52; padding: 4px; }
+cursor: pointer
+}
